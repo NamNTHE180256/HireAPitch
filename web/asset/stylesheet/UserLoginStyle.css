@@ -1,0 +1,144 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 28 Feb 2024, 22:15:00
+    Author     : dumspicy
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: monospace, sans-serif;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+.wrapper {
+    background-image: url(../img/loginBackground.png);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form__login--user {
+    position: absolute;
+    margin: 0 auto;
+    border-radius: 10px;
+    background: #fff;
+    min-width: 500px;
+    padding: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+}
+
+.login__heading {
+    text-align: center;
+    font-size: 1.6rem;
+    margin-bottom: 38px;
+    padding-top: 20px;
+    text-transform: uppercase;
+}
+
+.home{
+    transition: 0.25s;
+}
+
+.homepage__icon:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    border: none;
+    background-color: #d9d9d9;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 20px 0 40px;
+}
+
+input[type="text"]:hover,
+input[type="passwrod"]:hover {
+    opacity: 1;
+    transition: opacity 100ms linear 0s;
+}
+
+a {
+    margin-top: 18px;
+    display: block;
+    text-decoration: none;
+    color: #000;
+}
+
+/*#UserRegister {
+  float: left;
+}
+
+#form__user--btn {
+  float: right;
+  color: #d9d9d9;
+  font-size: 1.7rem;
+  margin-bottom: 20px;
+  border: none;
+  background: #33742d;
+  padding: 14px 20px;
+  border-radius: 14px;
+}*/
+#UserRegister,
+#form__user--btn {
+    display: inline-block;
+    width: calc(50% - 5px); /* Adjust width as needed */
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+#UserRegister {
+    background-color: #007bff;
+    color: #fff;
+    border: 2px solid transparent;
+}
+
+#form__user--btn {
+    background-color: #28a745;
+    color: #fff;
+    border: 2px solid transparent;
+    width: calc(50% - 5px); /* Adjust width as needed */
+}
+
+/* Hover and active states */
+#UserRegister:hover,
+#form__user--btn:hover {
+    background-color: #0056b3;
+}
+
+#UserRegister:active,
+#form__user--btn:active {
+    border: 2px solid rgba(33,224,163,1);
+    background: rgba(33,224,163,1);
+    transition: none;
+}
+
+.form--btn{
+    margin-top: 18px;
+}
+
+
+

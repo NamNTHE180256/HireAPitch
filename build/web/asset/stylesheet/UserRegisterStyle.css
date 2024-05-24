@@ -1,0 +1,156 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 28 Feb 2024, 22:18:45
+    Author     : dumspicy
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: monospace, sans-serif;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+.clear{
+    clear: both;
+}
+
+.container {
+    background-image: url(../img/loginBackground.png);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form__register--user {
+    position: absolute;
+    margin: 0 auto;
+    border-radius: 10px;
+    background: #fff;
+    width: 80%;
+    padding: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+}
+
+.register__heading {
+    text-align: center;
+    font-size: 1.6rem;
+    margin-bottom: 38px;
+    padding-top: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.home{
+    transition: 0.25s;
+}
+
+.homepage__icon:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.register{
+    width: 80%;
+    display:flex;
+    gap: 20px;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.register__left{
+    width: 100%;
+    border-right: 1px solid #d9d9d9;
+    padding-right: 20px;
+}
+
+.register__right{
+    width: 100%;
+}
+
+label{
+    display: inline-block;
+}
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    border: none;
+    background-color: #d9d9d9;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0 40px;
+}
+
+input[type="password"]{
+    width: 100%;
+    border: none;
+    background-color: #d9d9d9;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0 40px;
+
+}
+.pass{
+    width: 45%;
+    float: left;
+    margin-right: 10%;
+}
+
+.re_pass{
+    width: 45%;
+    float: left;
+}
+
+
+input[type="text"]:hover,
+input[type="email"]:hover,
+inpu[type="password"]:hover {
+    opacity: 1;
+    transition: opacity 100ms linear 0s;
+}
+
+span {
+    color: #ff0000;
+}
+
+.CTA-action {
+    max-width: 75%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form__register--btn {
+    border: none;
+    outline: none;
+    padding: 15px 40px;
+    cursor: pointer;
+    background: #33742d;
+    font-size: 1.5rem;
+    border-radius: 14px;
+    color: #d9d9d9;
+    transition: 0.25s;
+}
+
+.form__register--btn:hover{
+    transform: scale(1.1);
+}
+

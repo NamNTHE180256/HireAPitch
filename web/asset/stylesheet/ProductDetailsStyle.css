@@ -1,0 +1,252 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 9 Mar 2024, 16:35:55
+    Author     : dumspicy
+*/
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 1.6rem;
+    font-family: monospace, sans-serif;
+
+}
+
+body{
+    font-size: 62.5%;
+
+}
+
+
+/*================== Common ================*/
+
+.wrapper{
+    max-width: 86.25%;
+    margin: 0 auto;
+}
+
+.product-top--heading{
+    font-size: 2.4rem;
+    font-weight: bold;
+    margin: 0 0 10px;
+}
+
+.product-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 0 15px;
+}
+
+
+/*=================== Product info ===================*/
+
+
+.product-top--address{
+    display: flex;
+    gap: 15px;
+    margin: 0 0 10px;
+}
+
+.product-info--img{
+    width: 100%;
+    height: 650px;
+    border-radius: 10px 10px 2px 2px;
+    object-fit: cover;
+}
+
+
+/*===================== Product details =====================*/
+
+
+.product-top__inner{
+    padding: 15px;
+}
+
+.product-top--heading-h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-left: 3px solid #ffd88a;
+    margin: 0 0 10px;
+    padding: 0 0 0 15px;
+}
+
+.product-top--details__info{
+    margin: 20px 0 0;
+}
+
+.product-details__info-items{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 15px;
+}
+
+.product-details__info-items .right{
+    font-weight: bold;
+}
+
+.active{
+    background-color: #2563EB;
+    color: #fff;
+}
+
+/*====================== Product details service ========================== */
+
+.product-top__services{
+    background-color: #f3f3f3;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.product-top--heading-h4{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 0 0 10px;
+}
+
+.product-top__services--list-items{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 0 12px;
+}
+
+.items{
+    flex: 0 0 50%;
+    max-width: 50%;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.product__services--img{
+    margin-right: 10px;
+}
+
+.accessory-heading{
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-left: 3px solid #ffd88a;
+    margin: 0 0 10px;
+    padding: 0 0 0 15px;
+}
+
+.calendar-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-left: 3px solid #ffd88a;
+    margin: 0 0 10px;
+    padding: 0 0 0 15px;
+}
+
+
+.set-yard{
+    font-size: 13px;
+    flex: 0 0 20%;
+    max-width: 100%;
+    padding-right: 7px;
+    padding-left: 7px;
+    position: relative;
+    width: 100%;
+    color: #000;
+    text-align: center;
+}
+
+.frame-price{
+    max-width: 100%;
+    border-radius: 12px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    color: #959595;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+
+.frame-time{
+    margin: 0 auto;
+}
+
+.slot-btn{
+    border: 1px solid #000;
+    background: #fff;
+    outline: none;
+    width: 100%;
+    padding: 30px 0;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+.slot-btn:focus{
+    border: none;
+    background: #2563EB;
+    color: #fff;
+}
+
+.book-calendar__form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#datePicker{
+    margin-right: 8px;
+}
+
+.hire-btn{
+    width: 20%;
+    margin: 0 0 auto auto;
+}
+
+.accessory-image{
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    object-fit: cover;
+    position: relative;
+}
+
+.accessory-btn{
+    display: block;
+    margin: 10px auto;
+    border: none;
+    outline: none;
+    background-color: #198754;
+    padding: 10px 15px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.accessory-btn a{
+    color: #fff;
+}
+
+
+
+/*============== Lastest pitch ================*/
+.lastest-pitch__heading .title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-left: 3px solid #ffd88a;
+    margin: 0 0 10px;
+    padding: 0 0 0 15px;
+}
+
+input[type="radio"].slot-btn + label {
+    display: inline-block;
+    padding: 15px 30px; /* Increase padding for larger size */
+    background-color: #f0f0f0;
+    border: 2px solid #ccc; /* Increase border width for better visibility */
+    border-radius: 10px; /* Increase border radius for rounded corners */
+    cursor: pointer;
+    font-size: 16px; /* Increase font size for larger text */
+}
+
+
+

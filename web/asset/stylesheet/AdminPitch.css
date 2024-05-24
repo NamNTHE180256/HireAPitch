@@ -1,0 +1,88 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Mar 14, 2024, 9:40:21 AM
+    Author     : Admin
+*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    color: #2a952e;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    font-size: 24px;
+    margin: 0;
+    color: #333;
+}
+
+.addButton {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.addButton:hover {
+    background-color: #45a049;
+}
+
+.filter {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.filter label {
+    font-weight: bold;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.filter input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.productTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.productTable th,
+.productTable td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.productTable th {
+    background-color: #f5f5f5;
+}
+
+.productTable img {
+    max-width: 50px;
+    height: auto;
+}

@@ -1,0 +1,92 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 16 Mar 2024, 21:40:36
+    Author     : dumspicy
+*/
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+a{
+    color: #2a952e;
+}
+
+main{
+    margin-bottom: 80px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.stuff-header{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.filter {
+    display: flex;
+}
+
+.filter label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.filter input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.productTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.productTable th,
+.productTable td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.productTable th {
+    background-color: #f5f5f5;
+}
+
+.productTable img {
+    max-width: 50px;
+    height: auto;
+}
+
+.rentAction{
+    float: right;
+    margin: 20px 0 40px;
+}
+.rent-btn{
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+    background-color: #2a952e;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 10px;
+    transition: 0.25s;
+}
+
+.rent-btn:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}

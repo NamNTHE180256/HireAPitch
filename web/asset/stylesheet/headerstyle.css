@@ -1,0 +1,127 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 27 Feb 2024, 16:06:15
+    Author     : dumspicy
+*/
+
+/* common */
+:root {
+  --main-color: #34e83c;
+}
+body{
+    height: 203px;
+}
+
+html{
+    font-family: monospace, sans-serif;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.desc{
+    margin: 0;
+}
+
+.clear {
+  clear: both;
+}
+.header_wrapper {
+  background-color: #fff;
+  width: 100%;
+}
+
+/* header left */
+/* header left logo */
+
+.header_left {
+  float: left;
+  width: calc(100% - 320px);
+}
+
+.header_left .header_logo {
+  display: inline-block;
+  max-width: 200px;
+}
+
+.header_logo img {
+  width: 100%;
+}
+
+/* header left search input */
+.header_navbar {
+  float: right;
+  width: calc(100% - 330px);
+  padding: 0 50px 0;
+  margin: 50px 20px 0 0;
+  text-align: center;
+}
+
+
+
+/* mavbar list */
+.navbar_list {
+  margin-top: 20px;
+}
+
+.navbar_list .nav_items {
+  float: left;
+  width: 25%;
+  text-align: center;
+}
+
+/* header right */
+.header_right {
+  float: right;
+  width: 320px;
+  margin-top: 50px;
+}
+
+.header_CTO {
+  display: flex;
+  gap: 30px;
+  text-align: center;
+  align-items: center;
+  position: relative;
+}
+
+.login {
+  position: relative;
+  width: 40%;
+}
+
+#dropdown-btn {
+  position: absolute;
+  right: 2px;
+  top: 36px;
+}
+
+.login_sub_menu {
+  display: none;
+  background: #f1f1f1;
+  position: absolute;
+  top: 100%;
+  left: 20px;
+  width: 100px;
+  z-index: 20;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.login_sub_menu a {
+  display: block;
+  padding: 16px 12px;
+}
+
+.login:hover .login_sub_menu {
+  display: block;
+}
+
+.login_sub_menu a:hover {
+  background: #c9c2c2;
+}

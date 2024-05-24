@@ -1,0 +1,25 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 17 Mar 2024, 14:31:44
+    Author     : dumspicy
+*/
+
+.product__list{
+    margin-bottom: 140px;
+}
+.product-card{
+    transition: 0.25s;
+}
+
+.product-card:hover{
+    transform: scale(1.1);
+}
+
+.product-items__image{
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+}
